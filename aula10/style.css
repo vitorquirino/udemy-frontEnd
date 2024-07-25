@@ -1,0 +1,15 @@
+/*estilo da classe*/
+.paragraph{
+    color: white;
+    background-color: green;
+    padding: 1.5rem;
+}
+
+
+/*estilo do id*/
+
+#exclusive-title{
+    background-color: purple;
+    color: yellow;
+    padding: 1.8rem;
+}

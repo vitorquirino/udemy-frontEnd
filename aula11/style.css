@@ -1,0 +1,9 @@
+h2{
+    border-bottom: 1px solid orange;
+}
+.titulo{
+    border-bottom: 1px solid blue;
+}
+#algum-titulo{
+    border-bottom: 3px solid red;
+}
