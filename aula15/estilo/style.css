@@ -1,0 +1,22 @@
+.height-width{
+    width:100px ;
+    height: 200px;
+    background-color: red;
+}
+
+.height-width-2{
+    background-color: #333;
+    height: 100px;
+}
+                            /*padding*/
+.without-padding{
+    background-color: green;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.padding{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}

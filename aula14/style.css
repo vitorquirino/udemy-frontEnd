@@ -1,0 +1,19 @@
+.imagem-add{
+    background-image: url("../aula14/img/city\ \(1\).jpg");
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+/*centralizando imagem*/
+.not-centered-bg, .centered-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url("../aula14/img/bridge\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+}
