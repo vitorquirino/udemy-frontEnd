@@ -24,6 +24,19 @@
 }
 
                         /* rgb */
-.color-name-4{
-    color: rgb(red, green, b lue);
+.color-rgb{
+    color: rgb(0, 0, 255)
+}
+
+.mixed-rgb{
+    color: rgb(255, 10, 190);
+}
+                        /* RGBA */
+.color-rgba{
+    color: rgba(190, 20, 150, .2);
+}
+
+                        /*HSL*/
+.color-hsl{
+    color: hsl(10, 50%, 50%);
 }
