@@ -1,0 +1,23 @@
+h1{
+    background-color: rgb(200, 0, 200);
+    color:white;
+}
+.paragrafo{
+    background-color: rgba(170, 100, 200, .1);
+    color: #fff110;
+}
+                        /*background opacity*/
+.bg-opacity{
+    background-color: green;
+    opacity: 0.1;
+}
+.bg-opacity-2{
+    background-color: purple;
+    color: black;
+    opacity: .8;
+}
+
+#rgba-opacidade{
+    background-color: rgba(90, 200, 20, .2);
+    color: blue;
+}
