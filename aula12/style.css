@@ -1,0 +1,29 @@
+
+.color-name{
+    color: crimson;
+}
+
+
+                        /*hexadecimal*/                     
+.color-title-hex{
+    color: #1f5d;
+}
+.color-title-hex2{
+    color: #1b456a;
+}
+
+                        /* mais sobres hexadecimal */
+
+.color-name-2{
+    /* color:#333333;*/
+    color:#333;
+}
+.color-name-3{
+    /* color:#aa55ff;*/
+    color:#a5f;
+}
+
+                        /* rgb */
+.color-name-4{
+    color: rgb(red, green, b lue);
+}
