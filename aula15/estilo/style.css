@@ -18,5 +18,39 @@
 .padding{
     background-color: black;
     color: white;
-    padding: 30px;
+    padding: 50px;
+}
+                        /*padding individual*/
+.padding-individual{
+    background-color: #ff5578;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+}
+
+                        /*short hand*/
+.shorthand{
+    background-color:#00BFFF;
+    padding:6px 12px 18px 24px;
+}
+.shorthand{
+    background-color: #555;
+    padding: 10px 200px;
+    /* padding:10px 20px 10px 20px; */
+}
+                    /*padding com width*/
+.without-border-box{
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: #000;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
 }
