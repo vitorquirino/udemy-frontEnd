@@ -1,0 +1,9 @@
+.box-model{
+    margin: 20px;
+    padding:   15px          25px;
+          /*cima/baixo*/   /*lateral*/
+    border: 3px solid #345;
+    border-radius: 10px;
+    width: 200px;
+    height:100px;
+}

@@ -1,0 +1,8 @@
+.right{
+    text-align: right;
+}
+.alinhamento-center{
+    border: 1px solid rgb(4, 103, 250);
+    width: 300px;
+    text-align: center;
+}

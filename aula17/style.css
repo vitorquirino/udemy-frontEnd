@@ -1,0 +1,13 @@
+.margin{
+    margin: 10px;
+    background-color: aquamarine;
+}
+.margin-top{
+    margin-top: 50px;
+    padding: 30px;
+    background-color: yellow;
+}
+.margin-shorthand{
+    margin:5px 10px 15px 20px ;
+    background-color: red;
+}
