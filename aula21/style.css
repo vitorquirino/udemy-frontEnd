@@ -1,0 +1,38 @@
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+.remove-underline{
+    text-decoration: none;
+    color:red;
+}
+                            /*text transform*/
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+
+                        /* letter spacing*/
+.spacing{
+    letter-spacing: 8px;
+}
+                        /*fontes*/
+.conatiner-fonts{
+    font-size: 2rem;
+}
+.font-1{
+    font-family: serif;
+}
+.font-2{
+    font-family:monospace;
+}
+.font-3{
+    font-family: cursive;
+}
+.font-4{
+    font-family: fantasy;
+}
