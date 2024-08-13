@@ -1,0 +1,52 @@
+
+.static{
+    position: static;
+    background-color: #391;
+    color: white;
+    width:100px ;
+    height:100px;
+}
+
+.relative{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    background-color: rgb(238, 255, 0);
+    color: white;
+    width:100px ;
+    height:100px;
+}
+
+.absolute{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: rgb(255, 3, 3);
+    color: white;
+    width:100px ;
+    height:100px;
+}
+
+.relative-container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #557;
+    margin-top:120px;
+}
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #954;
+    position: absolute;
+    
+}
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
