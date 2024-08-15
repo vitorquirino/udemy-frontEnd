@@ -50,3 +50,35 @@
     bottom: 10px;
     right: 10px;
 }
+
+.position-relative{
+    width:300px;
+    height:800px;
+    background-color: #890;
+    border: 1px solid black;
+    position: relative;
+}
+.fixed-1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    position: fixed;
+    top: 50px;
+    left: 80px;
+}
+.position-sticky{
+    width:300px;
+    height:1500px;
+    background-color: #543;
+    border: 1px solid black;
+    position: relative;
+}
+.sticky{
+    width: 150px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid yellow;
+    position: sticky;
+    top: 10px;
+    left: 50px;
+}

@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.global{
+    width: 90%;
+    border: 2px solid gray;
+    margin: auto;
+}
+
+.head{
+    padding: 40px;
+    text-align: center;
+}
+.head > h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head > p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-band{
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.661);
+    width: 100%;
+    margin-top: 30px;
+}
+.img-band > img{
+    width: 70%;
+}
+figcaption{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:17px;
+    margin-bottom: 20px;
+}
+
+.body{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.661);
+}
+.body > h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body > p{
+    line-height: 20px;
+    padding: 20px;
+}
+
+.info{
+    width: 70%;
+    background-color: rgba(182, 179, 179, 0.423);
+    padding: 90px;
+    margin: auto;
+    font-size: 25px;
+    margin-bottom: 60px;
+    position: relative;
+    border-radius: 5px;
+    
+}
+.info > p{
+    position: absolute;
+    font-size: 16px;
+    bottom: 30px;
+    left: 30px;
+    border-bottom: 1px solid black;
+}
+.inquisitiveness{
+    border-top: 1px dotted rgba(128, 128, 128, 0.661);
+}

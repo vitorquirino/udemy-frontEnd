@@ -1,0 +1,32 @@
+.z-index{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    position: relative;
+}
+
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(13, 230, 114);
+    position: absolute;
+}
+.absolute-3{
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: rgb(0, 128, 255);
+    z-index: 1;
+}
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: rgba(242, 234, 17, 0.4);
+    z-index:3;
+}
