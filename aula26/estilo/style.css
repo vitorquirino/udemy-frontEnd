@@ -78,4 +78,6 @@ figcaption{
 }
 .inquisitiveness{
     border-top: 1px dotted rgba(128, 128, 128, 0.661);
+    position: relative;
+    left: 50px;
 }
