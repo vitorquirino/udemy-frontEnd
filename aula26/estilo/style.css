@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    box-sizing:border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -26,7 +28,7 @@
 }
 
 .img-band{
-    border-bottom: 1px dotted rgba(128, 128, 128, 0.661);
+    
     width: 100%;
     margin-top: 30px;
 }
@@ -34,7 +36,7 @@
     width: 70%;
 }
 figcaption{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Edu VIC WA NT Beginner", cursive;
     font-size:17px;
     margin-bottom: 20px;
 }
@@ -43,6 +45,7 @@ figcaption{
     width: 100%;
     margin-top: 20px;
     margin-bottom: 30px;
+    border-top: 1px dotted rgba(128, 128, 128, 0.661);
     border-bottom: 1px dotted rgba(128, 128, 128, 0.661);
 }
 .body > h2{
@@ -59,25 +62,62 @@ figcaption{
 }
 
 .info{
-    width: 70%;
-    background-color: rgba(182, 179, 179, 0.423);
-    padding: 90px;
+    background-color: rgba(192, 190, 190, 0.87);
+    width: 80%;
     margin: auto;
-    font-size: 25px;
-    margin-bottom: 60px;
-    position: relative;
-    border-radius: 5px;
-    
+    padding: 60px;
+    border-left:  6px solid rgba(2, 1, 1, 0.397);
+    border-right: 6px solid rgba(2, 1, 1, 0.397);
 }
-.info > p{
-    position: absolute;
-    font-size: 16px;
-    bottom: 30px;
+.info > .sales{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.info > figcaption{
+    font-size: 21px;
+}
+
+/*
+.ponto{
+    border-top:1px dotted gray ;
+}
+    */
+.inquisitiveness{
+    width: 80%;
+    padding: 40px;
+    position: relative;
     left: 30px;
+    top: 30px;
     border-bottom: 1px solid black;
 }
-.inquisitiveness{
-    border-top: 1px dotted rgba(128, 128, 128, 0.661);
+.inquisitiveness > h4{
+    text-align: left;
+    font-size: 1.3rem;
+}
+.inquisitiveness > ul{
     position: relative;
-    left: 50px;
+    left: 35px;
+    top: 30px;
+}
+
+.song-lyrics{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 10%;
+    padding:50px ;
+    border-radius: 20px;
+    width: 90%;
+    background-color: rgba(192, 190, 190, 0.87);
+}
+
+.letter{
+    font-size: 1.5rem;
+    font-weight: 900;
+    position: relative;
+    left: 60px;
+}
+.song-lyrics >  p{
+    font-weight: 800;
+    margin-top: 50px;
+    font-family:  "Edu VIC WA NT Beginner", system-ui;;
 }
