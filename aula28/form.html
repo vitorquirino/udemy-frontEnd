@@ -16,18 +16,36 @@
     </h1>
     <form action="registe.php" method="get">
         <label>
-            ola:
+            nome:
         </label>
 
-        <input type="color"/>
+        <input type="text"/>
     </form>
 
 
-    <label for="register.php">
-        idade :
-        <input type="text" name="age">
-    </label>
+    <div>
+        <!-- atributo label-->
+        <label for="age">
+            idade:
+        </label>
+        <input type="number" name="age">
+    </div>
 
+    <div>
+        <!--tag select-->
+        <label for="job">
+            selecione sua profissão
+        </label>
+        <select name="job">
+            <option value="programador">Programador</option>
+            <option value="tester" selected>Teste/QA</option>
+            <option value="devops">Devops</option>
+        </select>
+    </div>
 
+    <div>
+        <!--envio de form-->
+            <input type="submit" value="se inscreva">
+    </div>
 </body>
 </html>
