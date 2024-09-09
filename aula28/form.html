@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../aula28/css/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>
         tudo sobre formularios - html e css
     </title>
@@ -20,7 +21,6 @@
         </label>
 
         <input type="text"/>
-    </form>
 
 
     <div>
@@ -31,6 +31,7 @@
         <input type="number" name="age">
     </div>
 
+
     <div>
         <!--tag select-->
         <label for="job">
@@ -38,14 +39,98 @@
         </label>
         <select name="job">
             <option value="programador">Programador</option>
-            <option value="tester" selected>Teste/QA</option>
-            <option value="devops">Devops</option>
+            <option value="tester" selected>Teste/QA</option> <!--opção selected , para iniciar uma opção selecionada-->
+            <option value="devops">Devops</option>          
         </select>
+    </div>
+
+
+    <div>
+        <!--multipla opções-->
+        <label for="items">
+            selecione os itens desejados <br>
+            <select name="items" multiple>  
+                <option value="pera">Pera</option>
+                <option value="feijao">Feijão</option>
+                <option value="arroz">Arroz</option>
+                <option value="milho">Milho</option>
+            </select>
+        </label>
+    </div>
+
+    <div>
+        <!--textarea-->
+        <label for="commet">
+            escreva abaixo oque achou do post:
+        </label>
+        <textarea name="commet" id="" cols="30" rows="10" ></textarea>
+    </div>
+
+
+    <div>
+        <!--fieldset e legend-->
+        <fieldset>
+            <legend>Preencha as suas informações:</legend>
+            <label for="firtsname">Primeiro nome:</label>
+            <input type="text" name="firtsname">
+            <label for="lastname">Ultimo nome:</label>
+            <input type="text" name="lastname">
+        </fieldset>
+    </div>
+
+    <div>
+        <!--Datalist-->
+        <label for="flavor">
+            Escolha o sabor :
+        </label>
+        <input type="text" list="flavors" name="flavor">
+
+        <datalist id="flavors">
+            <option value="cereja"></option>
+            <option value="morango"></option>
+            <option value="abacaxi"></option>
+            <option value="chocolate"></option>
+        </datalist>
+    </div>
+
+    <div>
+        <!--senha-->
+        <label for="password">
+            Digite sua senha
+        </label>
+        <input type="password" name="password">
+    </div>
+
+
+
+    <div>
+        <!--resetar form-->
+        <input type="reset" value="limpar">
     </div>
 
     <div>
         <!--envio de form-->
             <input type="submit" value="se inscreva">
     </div>
+
+    <div>
+        <!--input radio-->
+        <label for="car_model">
+            escolha o modelo do seu carro: 
+        </label>
+        <div class="radio">
+            <input type="radio" value="bmw" name="car_model">
+            <label for="bmw">BMW</label>
+        </div>
+        <div class="radio">
+            <input type="radio" value="renauld" name="car_model">
+            <label for="renauld">Renauld</label>
+        </div>
+        <div class="radio">
+            <input type="radio" value="ferrari" name="car_model">
+            <label for="ferrari">Ferrari</label>
+        </div>
+    </div>
+</form>
 </body>
 </html>
