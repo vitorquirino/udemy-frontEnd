@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo/style.css">
+    <title>
+        landing page - formularios
+    </title>
+</head>
+<body>
+    <div class="top-bar">
+        <h1>Cadastre seu veiculo para vender mais rápido!</h1>
+    </div>
+    <div class="main-form">
+        <h2>formulario</h2>
+
+        <h3>Venda fácil seu carro!</h3>
+        <p>descreba as características e marque os opcionais que ele possui</p>
+
+        <form action="registre.php" method="get">
+            <div class="titulo-car">
+                <label for="titulo-car">
+                    Titulo do anúncio:* <br>
+                </label>
+                <input type="text" name="titulo-car" placeholder="Um titulo para anunciar seu carro">
+            </div>
+
+            <div class="price-car">
+                <label for="price-car">
+                    Preço: * <br>
+                </label>
+                <input type="number" name="price-car" placeholder="Defina o preço">
+            </div>
+
+            <div class="description-car">
+                <label for="description-car">
+                        Descrição * <br>
+                </label>
+                <textarea name="description-car" cols="30" rows="5"></textarea>
+            </div>
+
+            <div class="brand">
+                <label for="brand">
+                    Marca * <br>
+                </label>
+                <input type="text" name="brand" placeholder="Digite a marca do veiculo">
+            </div>
+
+            <div class="Mileage"> 
+                <label for="mileage">
+                    Kilometragem: * <br>
+                </label>
+                <input type="text" name="mileage" placeholder="Digita a kilometragem do veiculo">
+            </div>
+
+            <div class="date-buy">
+                <label for="date-buy">
+                    Data da compra: * <br>
+                </label>
+                <input type="date" name="date-buy">
+            </div>
+
+            <div>
+                    <label for="exchange">Tipo do câmbio: </label>
+                    <div class="type">
+                        <input type="radio" value="manual" name="exchange">
+                        <label for="manual">Manual</label>
+                    </div>
+                    <div class="type">
+                        <input type="radio" value="automatico" name="exchange">
+                        <label for="automatico">Automático</label>
+                    </div>
+            </div>
+
+            <div>
+                <label for="options">Opcionais:</label>
+                <div>
+                    <input type="checkbox" name="options{}">
+                    <label for="airbag">Airbag</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="options{}">
+                    <label for="alarme">Alarme</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="options{}">
+                    <label for="arCondicionado">Ar Condicionado</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="options{}">
+                    <label for="alarme">Camera de Ré</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="options{}">
+                    <label for="assistentedepista">Assistente de pista</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="options{}">
+                    <label for="partidaKeyless">Partida Keyless</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="options{}">
+                    <label for="integraçãocomcelular">Integração com celular</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="options{}">
+                    <label for="bancodecouro">Banco de couro</label>
+                </div>
+            </div>
+
+            <div class="photos-car">
+                <label for="photos-car">
+                        Fotos do carro: * <br>
+                </label>
+                <input type="file" name="photos-car">
+            </div>
+    </div>
+    </form>
+
+    </div>
+</body>
+</html>
