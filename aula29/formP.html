@@ -18,6 +18,7 @@
             <div class="header-form">
                 <h4>Formulário</h4>
             </div>
+            
             <div class="form-body">
                 <h1 class="form-title">Venda fácil seu carro!</h1>
                 <p>Descreva as caracteristicas e marque os opcionais que ele possui!</p>
@@ -74,8 +75,8 @@
                         />
                     </div>
 
-                    <div class="box-input"></div>
-                        <label for="model">Modelo do carro <span class="required-field">*</span></label>
+                    <div class="box-input">  
+                        <label for="model">Modelo<span class="required-field">*</span></label>
     
                         <input 
                         type="text"
@@ -86,6 +87,46 @@
                         required
                         />
                     </div>
+
+                    <div class="box-input">  
+                        <label for="mileage">Kilometragem<span class="required-field">*</span></label>
+    
+                        <input 
+                        type="number"
+                        name="mileage"
+                        id="mileage"
+                        class="block"
+                        placeholder="Digite a kilometragem do veiculo"
+                        required
+                        />
+                    </div>
+
+
+
+
+                    <div class="box-input">  
+                        <label for="purchase_date">Data de compra<span class="required-field">*</span></label>
+    
+                        <input 
+                        type="date"
+                        name="purchase_date"
+                        id="purchase_date"
+                        class="block"
+                        required
+                        />
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
                     <input type="submit" value="enviar">
                 </form>
             </div>
