@@ -118,15 +118,62 @@
                     </div>
 
 
-                    <div class="input_box">
-                        <label for="iname">
-                            digite seu nome >
-                        </label>
-                        <input type="text" name="iname" id="iname">
+                    <div class="box-input">  
+                        <p>tipo de câmbio : <span class="required-field">*</span> </p>
+    
+                        <input type="radio" name="manual" id="gear">
+                        <label for="manual">Manual</label><br>
+                        <input type="radio" name="auto" id="gear">
+                        <label for="manual">Automático</label>
+                    </div>
+                    <div class="optional-box">  
+                        <p>Opicionais </p>
+                        <ul class="optional-list">
+                            <li>
+                                <input type="checkbox" id="airbag" name="optional[]" value="airbag">
+                                <label for="airbag">Airbag</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="alarm" name="optional[]" value="alarm">
+                                <label for="alarm">Alarme</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ac" name="optional[]" value="ac">
+                                <label for="ac">Ar condicionado</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="reverse_camera" name="optional[]" value="reverse_camera">
+                                <label for="reverse_camera">Câmera de ré</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="optional-box">  
+                        
+                        <ul class="optional-list">
+                            <li>
+                                <input type="checkbox" id="line_assist" name="optional[]" value="line_assist">
+                                <label for="line_assist">Assistente de pista</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="keyless" name="optional[]" value="keyless">
+                                <label for="keyless">Partida keyless</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="smartphone" name="optional[]" value="smartphone">
+                                <label for="smartphone">integração com celular</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="leather_seat" name="optional[]" value="leather_seat">
+                                <label for="leather_seat">Banco de couro</label>
+                            </li>
+                        </ul>
                     </div>
 
-
-
+                    <div class="box_input">
+                        <p>fotos do carro : <span class="required-field">*</span></p>
+                        <input type="file" multiple accept="image/png, image/jpg" name="images" id="images" required>
+                    </div>
+                    
 
 
 
