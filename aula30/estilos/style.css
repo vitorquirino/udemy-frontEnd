@@ -5,16 +5,15 @@
 }
 
 h1{
-    color: red;
+    color: green;
 }
 @media screen and (max-width:500px) {
     h1{
         color: green;
     }
 }
-
 p{
-    background-color: aqua;
+    background-color:black;
     color: green;
 }
 
@@ -23,4 +22,8 @@ p{
         background-color: red;
         color: yellow;
     }
+}
+.last-title{ 
+    background-color: black;
+    color:white;
 }
