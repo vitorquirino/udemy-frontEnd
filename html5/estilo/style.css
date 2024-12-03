@@ -1,23 +1,21 @@
 /*font family do site*/
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-/*configurações padroes*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/*configuração do body*/
-body{
-    border: 1px solid black;
-    max-width: 90%;
-    height: 100vh;
-    margin: 0 auto;
-    font-family: "Jaro", sans-serif;
-}
+
+
 h1{
     color: blue;
-    text-align: center;
+    
 }
 
 /*flex-box caixa flexivel*/
+.container{
+ background-color: gray;
+ display: flex;
+}
+.item{
+    border: 1px solid white;
+    flex: auto;
+    background-color: blue;
+    color: green;
+}
