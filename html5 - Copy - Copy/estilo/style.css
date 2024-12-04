@@ -1,0 +1,28 @@
+/*font family do site*/
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+h1{
+    color: blue;
+}
+
+/*flex-box:"caixa flexivel"    flex-wrap   flex-flow   */ 
+.pai{
+    background-color: gray;
+    display: flex;
+
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap-reverse; */
+    /*simplificação desse dois de cime*/
+
+    flex-flow: wrap-reverse row; /*ele vai juntar esses dois atributos*/
+}  
+
+
+.filho{
+    border: 1px solid black;
+    background-color: yellow;
+    color: green;
+    text-align: center;
+    padding: 10px;
+    flex: auto;
+    
+}
