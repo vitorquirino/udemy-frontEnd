@@ -12,13 +12,13 @@ h1{
 .container{
  background-color: gray;
  display: flex;
- flex-direction: row;
+ flex-direction: column-reverse;
 }  
 /*flex auto*/   
 .item{
-    border: 1px solid white;
-    flex: auto;
+    border: 1px solid black;
     background-color: blue;
     color: green;
-    height: 60px;
+    text-align: center;
+    padding: 10px;
 }
