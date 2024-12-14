@@ -1,2 +1,1 @@
-alert("ola mundo");
-prompt('ola mundo');
+alert('ola mundo, testando');
