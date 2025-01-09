@@ -14,3 +14,10 @@
 .texto-amarelo{
     color: yellow;
 }
+
+.Up{
+    /* usando  hexadecimal */
+    color: #ff6400;
+    /* usando rgb  */
+    background-color: rgb(250, 100,0);
+}
