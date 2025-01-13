@@ -21,3 +21,11 @@
     /* usando rgb  */
     background-color: rgb(250, 100,0);
 }
+.ultP{
+    color: yellow;
+    background-color: #ff00ff64;
+
+    /* background-color:#f0f4; simplificado */
+    /* background-color: rgba(255, 0, 255, 0.3); */
+    
+}
