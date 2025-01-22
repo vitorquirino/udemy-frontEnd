@@ -1,0 +1,22 @@
+.gradient{
+    height: 100px;
+    background: linear-gradient(to right, red ,blue 20%,green);
+}
+.container{
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(to bottom left, black 50%
+    ,red );
+}
+.ucrania{
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(to bottom, blue 50%
+    ,yellow 50% );
+}
+.france{
+    width: 200px;
+    height: 150px;
+    background:linear-gradient(to right,blue 20%,
+    white 50%,  red 80%)  ;
+}
