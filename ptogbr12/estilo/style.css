@@ -1,0 +1,24 @@
+
+
+.container{
+    width: 600px;
+    height: 500px;
+    /* background-color: red; */
+    /* background-image: url('../imagens/fundo.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-size:cover; */
+    /* background-position: top right; */
+                       /* short-hand */
+    background: rgb(240, 100, 0) url('../imagens/fundo.png')
+     no-repeat right;
+     background-size: cover;
+}
+p{
+    color: white;
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(108, 108, 230); */
+    background-image: url('../imagens/foto2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
