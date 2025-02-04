@@ -1,0 +1,18 @@
+body{
+    background-color: green;
+    color: white;
+    font-family:"comic sans MS",arial, 
+    sans-serif;
+    font-weight: bolder;
+}
+p{    
+    font-family: Courier, monospace;
+    font-style: italic;
+    font-size:small;
+    font-weight: 500px;
+    font-variant: small-caps;
+}
+
+h1,h2{
+    color: red;
+}
