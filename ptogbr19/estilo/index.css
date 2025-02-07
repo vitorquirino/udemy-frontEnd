@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: "MinhaFonte";
+}
+p{
+    font-family: "MinhaFonte";
+}
+@font-face {
+    font-family:MinhaFonte;
+    src: url(../fontes/Evossry.ttf);
+}
