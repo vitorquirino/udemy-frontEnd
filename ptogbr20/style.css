@@ -1,3 +1,12 @@
+body{
+    /* background: url("../ptogbr20/cd/gato.jfif"); */
+    background-image: url("../ptogbr20/cd/gato.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
 h1{
     color: red;
     font-size: 50px;
@@ -17,4 +26,16 @@ p{
 }
 .minhalista  li{
     color: red;
+}
+
+.caixa{
+    width: fit-content;
+    margin: 10px;
+    padding:50px;
+    background-color: violet;
+    border: 2px solid black;
+}
+.caixa  p{
+    color: blue;
+    background-color: chocolate;
 }
