@@ -1,0 +1,20 @@
+h1{
+    color: red;
+    font-size: 50px;
+}
+.central{
+    text-align: center;
+}
+.super-titulo{
+    background-color: yellow;
+}
+#super-paragrafo{
+    background-color: black;
+    color: white;
+}
+p{
+    background-color:rgb(21, 107, 206);
+}
+.minhalista  li{
+    color: red;
+}
