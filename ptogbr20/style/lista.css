@@ -1,0 +1,16 @@
+.alternada{
+    list-style: georgian;
+    font-size: 30px;
+    color: coral;
+}
+/* adicionar os impar */
+.alternada > li:nth-child(odd){
+    background-color: purple;
+}
+/* adicionar o par */
+.alternada > li:nth-child(even){
+    background-color: darkslategrey;
+}
+.alternada > li:hover{
+    font-weight: bolder;
+}
