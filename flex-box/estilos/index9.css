@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    height: 50px;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+}
+.box{
+    border: 1px solid black;
+    background-color: green;
+}
+.container > .box{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+   /* flex: 1 1 300px; shorthand    */
+    width: auto;
+}
+.container > .small{
+    flex-shrink: 2;
+}
+
+.auto-alignment{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid black
+}
+.caixa{
+    width: 100%;
+    border:1px solid black ;
+}
+.auto-alignment > .diffrent{
+    align-self: center;
+}

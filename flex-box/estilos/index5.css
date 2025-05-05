@@ -1,0 +1,13 @@
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.box{
+    border: 1px solid black;
+}
+.container > .box{
+    width:32%;
+}

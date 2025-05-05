@@ -1,0 +1,12 @@
+.basis{
+    display: flex;
+    border: 1px solid black;
+}
+.basis > .box{
+    flex-basis: 20px;
+    border: 1px solid black;
+    
+}
+.basis > .big{
+    flex-grow: 1;
+}

@@ -1,0 +1,17 @@
+/*grow*/
+
+.grow{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+.box{
+    width: 50%;
+    background-color: green;
+    flex: 1;
+}
+#big{
+    flex: 2;
+    background-color: red;
+}
